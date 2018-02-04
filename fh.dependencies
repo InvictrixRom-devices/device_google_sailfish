@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "neporood/android_device_google_marlin",
+    "target_path": "device/google/marlin",
+    "branch" :  "fh81"
+  }
+]
