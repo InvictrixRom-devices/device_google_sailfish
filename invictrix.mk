@@ -22,6 +22,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sailfish \
     PRIVATE_BUILD_DESC="sailfish-user 8.1.0 OPM2.171019.029 4657601 release-keys"
 
-BUILD_FINGERPRINT=google/sailfish/sailfish:8.1.0/OPM2.171019.029/4657601:user/release-keys
-    
+BUILD_FINGERPRINT := google/sailfish/sailfish:8.1.0/OPM2.171019.029/4657601:user/release-keys
+
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
