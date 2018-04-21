@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "device_google_marlin",
+    "target_path": "device/google/marlin",
+    "branch" :  "inv-8.1"
+  }
+]
