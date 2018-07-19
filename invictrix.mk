@@ -7,6 +7,7 @@ $(call inherit-product, vendor/invictrix/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
+$(call inherit-product, vendor/nepo/my-apps.mk)
 
 -include device/google/marlin/sailfish/device-lineage.mk
 
@@ -21,8 +22,8 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sailfish \
-    PRIVATE_BUILD_DESC="sailfish-user 8.1.0 OPM4.171019.021.D1 4768809 release-keys"
+    PRIVATE_BUILD_DESC="sailfish-user 8.1.0 OPM4.171019.021.P1 4820305 release-keys"
 
-BUILD_FINGERPRINT := google/sailfish/sailfish:8.1.0/OPM4.171019.021.D1/4768809:user/release-keys
+BUILD_FINGERPRINT := google/sailfish/sailfish:8.1.0/OPM4.171019.021.P1/4820305:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
