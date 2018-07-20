@@ -1,6 +1,6 @@
 [
   {
-    "repository": "InvictrixROM/device_google_marlin",
+    "repository": "InvictrixROM-Devices/device_google_marlin",
     "target_path": "device/google/marlin",
     "branch" :  "inv-8.1"
   }
