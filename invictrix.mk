@@ -7,7 +7,6 @@ $(call inherit-product, vendor/invictrix/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_sailfish.mk)
-$(call inherit-product, vendor/nepo/my-apps.mk)
 
 -include device/google/marlin/sailfish/device-lineage.mk
 
